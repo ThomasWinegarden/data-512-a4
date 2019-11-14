@@ -4,6 +4,8 @@ Thomas Winegarden
 
 An examination of data quality solutions in R based projects/repos (and possibly python) being applied prior to statistical analysis on Github.
 
+## INTRODUCTION
+
 ### Motivation
 
 I am interested in data quality issues that data scientists commonly encounter while doing analysis. I am also particularly interested in the solutions that analysts are coming up with to use code (specifically R or Python) to solve data quality issues. This is potentially useful from a practical perspective because it will enable knowledge sharing and even code sharing around common and specific data quality problems. This could help scientists develop accurate data cleaning solutions and share standardized code to agree on norms. I hope to understand firstly, the data quality issues that are easily and commonly solved across different types/industries of analysis projects. Secondly, I hope to learn about areas of data quality and data cleaning that are not easy, do not have an agreed upon method of solution, complex in nature, or have not been solved.
@@ -16,3 +18,37 @@ I plan to query or scrape github for public repos that use specific data quality
 
 It will be almost impossible to argue that this is a representative sample of data science projects as a whole. I will need to be clear about my search and query parameters while building the data set for analysis. 
 This data may also be difficult to compile prior to analysis as it needs to be manually assembled and ironically will need data quality fixes and data cleaning of its own. That is to say a clean data set is not readily available and I have yet to find similar research or project research questions similar to the pitch I propose.
+
+## PROJECT PLAN
+
+### Research Questions
+
+Q1. Over the last year, what percentage of public R projects on Github are using tidyR for data manipulation of any kind? Is there a trend in growth or otherwise?
+
+Q2. Of the 5 main tidyR function categories (Pivoting, Rectangling, Nesting, Splitting and Combining, Implicit to Explicit) what is the comparative usage breakdown?
+
+Q3. Within each of the 5 main tidyR function categories, what are the most common functions being used?
+
+Q4. Is there a correlation between use of Tidyr and use of other R packages or libraries.
+
+Q5. Can it be determined by observing the repository’s description, readme, author, or base data what the industry or sector the project is associated with? What is the breakdown of sectors that can be determined.
+
+### Hypothesis
+
+H1. However, I hypothesize that the percent of projects using tidyR is increasing. I’ve come up with hypothesis via person heuristic observation of my twitter feed.
+
+H2. Rectangling is most popular and Nesting is least popular of the main 5 categories.
+
+H3. 
+1.	Pivoting: gather()
+2.	Rectangling: unnest_longer()
+3.	Nesting: unnest()
+4.	Splitting and Combining: unite()
+5.	Implicit to Explicit: drop_na()
+
+H4. dplyr.
+
+H5. These will be a difficult data points to procure from the dataset and may require manual work. I believe by narrowing down the analysis to about 100 projects I can determine with these fields what the sector associated with the project is. I hypothesis that academic related research in the field of Statistics and Social Sciences is the most common.
+
+I would like to call out that these are mostly exploratory questions and my hypothesis are submitted as very broad guesses sometimes not based on even heuristic observation.
+
