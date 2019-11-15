@@ -63,3 +63,14 @@ H5. These will be a difficult data points to procure from the dataset and may re
 
 I would like to call out that these are mostly exploratory questions and my hypothesis are submitted as very broad guesses sometimes not based on even heuristic observation.
 
+### Related Work
+
+The closest related project that I have been able to find that helps to explore public repositories that use R on Github is actually published by R Studio itself. I’ll let the project description speak for itself, “This project uses githubs code and repository api to collect information about all github repositories that use R.” The project can be found here: https://github.com/hadley/r-on-github. Hadley Wickham is the owner of the repo and works as a Chief Scientist at rstudio. Part of my plan involves reaching out to him as I believe he is also a contributor to the tidyR and tidyverse packages. Below are some charts he has created comparing R Repos vs Packages.
+ 
+ Link to image of graph showing R repos vs pkgs on github
+- https://github.com/hadley/r-on-github/blob/master/github-repos.pdf
+
+I plan to use some of the data Hadley Wickham has queried via the github API already but expand upon it in the direction of specific packages such as TidyR as my research questions outline. There is also opportunity to use his code base to query new more specific information from github which I see highly likely I use to narrow down my focus to 100 repos.
+
+Unfortunately I have not found other analysis or research that is similar in scope to my project plan is it currently stands. I will continue to actively search for public research into the usage of tidyR, data quality methods in R, and R on github usage statistics and ideally expand this section.
+
