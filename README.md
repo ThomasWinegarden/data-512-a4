@@ -33,6 +33,17 @@ Q4. Is there a correlation between use of Tidyr and use of other R packages or l
 
 Q5. Can it be determined by observing the repository’s description, readme, author, or base data what the industry or sector the project is associated with? What is the breakdown of sectors that can be determined.
 
+### Ethical considerations of the above research questions
+
+I do not believe the existence and ability to query public R based Github repos is an ethical problem in of itself however I can imagine a few ethical concerns that may surface during analysis.
+
+The primary ethical concern is around including the author of the repository within the dataset. Though these are public repos, I already find it tempting to research the background of repo authors outside of what is provided on github. This is possibly breaching the privacy of the authors and I will initially attempt to determine without outside sources than github. I may then include identity links authors willing provide, followed by explicit public sources such as Wikipedia or public university pages.
+
+Secondarily, there is ethical concern in observing public datasets with various licensing even though I will not be executing any of their code. I will do an examination of licenses within the ~100 subset I plan to narrow down in order to determine and expand on ethical or IP concerns in this area.
+
+Finally, I imagine there could be public repos on github that may have sensitive data within them. These could be unintendedly been made public, made public nefariously, or possibly due to negligence. This will be difficult to detect initially but may arise in examination and attempts to answer question 5.
+
+
 ### Hypothesis
 
 H1. However, I hypothesize that the percent of projects using tidyR is increasing. I’ve come up with hypothesis via person heuristic observation of my twitter feed.
