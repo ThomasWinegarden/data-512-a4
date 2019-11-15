@@ -74,3 +74,13 @@ I plan to use some of the data Hadley Wickham has queried via the github API alr
 
 Unfortunately I have not found other analysis or research that is similar in scope to my project plan is it currently stands. I will continue to actively search for public research into the usage of tidyR, data quality methods in R, and R on github usage statistics and ideally expand this section.
 
+### Methodology
+
+Investigation via data exploration will begin primarily with compiling and filtering the R on github data to repos that use specific packages such as tidyR. The sub sectioning of these groupings will primarily include counting and averaging with groups. I plan to plot via timeseries line graphs as well as show breakdowns via pie charts and bar charts.
+
+Correlation analysis should also be involved in order to answer which packages trend together and possibly to relate tidyR main function usage.
+
+Overall this is mostly a comparative analysis and investigation of use of the tidyR library for data quality and data cleaning activities. I believe with basic methods of usage count comparisons and visualization of categorical comparisons I can drive understanding of the five initial research questions.
+
+I do not plan to incorporate machine learning methods to this dataset at this time.
+
