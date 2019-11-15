@@ -84,3 +84,7 @@ Overall this is mostly a comparative analysis and investigation of use of the ti
 
 I do not plan to incorporate machine learning methods to this dataset at this time.
 
+### References (work in progress)
+
+R On GitHub project
+https://github.com/hadley/r-on-github - Hadley Wickham
