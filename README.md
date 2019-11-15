@@ -1,6 +1,6 @@
-# Human Centered Data Science Project Pitch
+# TidyR on Github, a Human Centered Data Science Final Project
 
-Thomas Winegarden
+Thomas Winegarden - HCDE 512 (Autumn 2019)
 
 An examination of data quality solutions in R based projects/repos (and possibly python) being applied prior to statistical analysis on Github.
 
